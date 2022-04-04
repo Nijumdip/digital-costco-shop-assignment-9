@@ -3,7 +3,8 @@ import React from 'react';
 const PageNotFound = () => {
     return (
         <div className='text-center m-5'>
-            <h1> THIS PAGE IS NOT FOUND ..!</h1>
+            <h1> SORRY ! </h1>
+            <h1>THIS PAGE IS NOT FOUND ....</h1>
             <br />
             <br />
             <br />

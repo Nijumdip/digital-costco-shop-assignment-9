@@ -1,0 +1,44 @@
+[
+    {
+       "id":"01",
+       "name":" Zlata Ivleva",
+       "image":"https://thumbs.dreamstime.com/b/milan-italy-november-g-meazza-san-siro-stadium-uefa-champions-league-ac-milan-fc-barcelona-zlatan-ibrahimovic-celebrates-187096055.jpg",
+       "review1":"Acer's Predator Triton 300 SE will make major waves among gaming laptops, with its trim design and punchy RTX 3060 gaming performance at an aggressive price.",
+       "ratting":"4.5 Outstanding"
+    },
+    {
+       "id":"02",
+       "name":" Molly Flores",
+       "image":"https://media.gettyimages.com/photos/molly-hawkey-arrives-at-the-seesos-the-pistol-shrimps-premiere-at-the-picture-id540630038?s=612x612",
+       "review1":"MSI's Katana GF66 is a well-priced, well-rounded budget gaming laptop that cuts competing models down to size.",
+       "ratting":"4.0 Excellent"
+    },
+    {
+       "id":"03",
+       "name":" Charles Michael Davis",
+       "image":"https://media.gettyimages.com/photos/actor-charles-michael-davis-from-the-originals-is-photographed-for-picture-id847071086?s=612x612",
+       "review1":"The Asus TUF Gaming FX504G pairs a 1080p IPS display and GeForce GTX 1050 Ti power at an aggressive price. It's a solid budget gaming laptop, but suffers from short battery life.",
+       "ratting":"3.5 Good"
+    },
+    {
+       "id":"04",
+       "name":"Matthew Buzzi",
+       "image":"https://i.pcmag.com/imagery/authors/06LIajI1jO2w7JwqYcP8NzL.fit_lim.size_200x200.v1642532287.jpg",
+       "review1":"Acer's 15.6-inch Predator Helios 300 offers solid features for the money and remains an excellent large-screen, midrange gaming machine.",
+       "ratting":"4.0 Excellent"
+    },
+    {
+       "id":"05",
+       "name":" Michael Kan",
+       "image":"https://media-exp1.licdn.com/dms/image/C4D03AQHknsMnLBvbNQ/profile-displayphoto-shrink_200_200/0/1587568051258?e=2147483647&v=beta&t=TOLkipUP8otvcWzlFtFEIAEHk_bVl6D8wY8ZePFzPHs",
+       "review1":"The Zephyrus S17 is a highly capable 17.3-inch gaming machine with exotic touches and a supercar price.",
+       "ratting":"4.4 Excellent"
+    },
+    {
+       "id":"06",
+       "name":" Matthew Humphries",
+       "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZts_oiCVTE620x_eNS-TtUC_72UbXnpe5jg&usqp=CAU",
+       "review1":"The brand-new Alienware x14 joins the upper echelon of 14-inch gaming laptops, delivering a sound gaming experience and fast overall performance in a super-portable design.",
+       "ratting":"4.5 Outstanding"
+    }
+ ]
