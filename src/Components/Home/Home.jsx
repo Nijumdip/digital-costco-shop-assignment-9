@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import useReviews from "../../hooks/useReviews";
 import ReviewHome from "../ReviewHome/ReviewHome";
 import "./Home.css";
@@ -52,8 +53,9 @@ const Home = () => {
         }
         </Row>
         <div className="m-5 text-center ">
+          <Link to='/reviews'>
           <Button variant="outline-primary" size="lg">See All Reviews </Button>
-          {/*  <Link to={`//${}`}> </Link> */}
+          </Link> 
         </div>
       </div>
     </div>
