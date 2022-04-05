@@ -13,7 +13,7 @@ const Home = () => {
         <div className="w-75">
           <h1>Digital Costco Shop</h1>
           <h1>
-            <span className="color">Make Sure Your Best Laptop </span>
+            <span style={{color:'#035097'}}>Make Sure Your Best Laptop </span>
           </h1>
           <p>
             THE BOTTOM LINE <br />
