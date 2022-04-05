@@ -6,7 +6,7 @@ import AllReviews from "../AllReviews/AllReviews";
 const Reviews = () => {
   const [reviews] = useReviews([]);
     return (
-      <div className="d-flex flex-row m-5 justify-content-between align-items-start">
+      <div className=" container d-flex flex-row justify-content-center align-items-start">
       <Row xs={1} md={3} className="g-4">
         {reviews.map(review => <AllReviews 
             key={review.id}

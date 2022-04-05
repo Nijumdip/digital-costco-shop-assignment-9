@@ -3,13 +3,13 @@ import { Button, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import useReviews from "../../hooks/useReviews";
 import ReviewHome from "../ReviewHome/ReviewHome";
-import "./Home.css";
+
 
 const Home = () => {
   const [reviews] = useReviews([]);
   return (
     <div>
-      <div className="  main-div my-5 d-flex container">
+      <div className="  main-div my-5 d-lg-flex flex-row justify-content-center align-items-center container">
         <div className="w-75">
           <h1>Digital Costco Shop</h1>
           <h1>
@@ -33,8 +33,8 @@ const Home = () => {
         <div className="left-div">
           <img
             className="rounded "
-            width={"400px"}
-            height={"500px"}
+            width={"350px"}
+            height={"400px"}
             src="https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&w=1000&q=80"
             alt=""
           />
@@ -42,7 +42,7 @@ const Home = () => {
       </div>
 
       {/* Customer Reviews  */}
-      <div className="m-5 container">
+      <div className=" container">
         <h3 className="text-center">Customer Reviews(3)</h3>
         <Row xs={1} md={3} className="g-4">
         {

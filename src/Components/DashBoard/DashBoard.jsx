@@ -19,10 +19,10 @@ const DashBoard = () => {
       .then((data) => setData(data));
   }, []);
   return (
-      <div className="container d-flex flex-row m-5">
-          <div className="m-5 text-center">
+      <div className="container mx-sm-2 d-lg-flex flex-lg-row justify-content-around align-items-center">
+          <div className="text-center">
                 <h3>MONTH WISE SELL</h3>
-                <LineChart width={550} height={300} data={data} >
+                <LineChart width={350} height={300} data={data} >
                     <Line type="monotone" dataKey={'sell'}/>
                     {/* <Line type="monotone" dataKey="revenue" stroke="#82ca9d" /> */}
                     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
@@ -31,19 +31,19 @@ const DashBoard = () => {
                     <Tooltip/>
                     <Legend />
                 </LineChart>
-        </div>
-        <div className="m-5 text-center">
+            </div>
+            <div className="text-center">
             <h3>INVESTMENT VS REVENUE</h3>
-            <BarChart width={530} height={300} data={data}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="month" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="revenue" fill="#8884d8" />
-                <Bar dataKey="investment" fill="#82ca9d" />
-            </BarChart>
-        </div>
+                <BarChart width={350} height={300} data={data}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="month" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="revenue" fill="#8884d8" />
+                    <Bar dataKey="investment" fill="#82ca9d" />
+                </BarChart>
+            </div>
       </div>
   );
 };
