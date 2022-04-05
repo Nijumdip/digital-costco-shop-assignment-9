@@ -1,6 +1,7 @@
 # Digital Costco Shop
 
 This is my Second React Project [See My Project](https://digital-costco-shop.netlify.app/).
+This is my private repo link [See My private repo](https://github.com/programming-hero-web-course-4/product-analysis-website-Nijumdip).
 
 ## `Project Description`
 
