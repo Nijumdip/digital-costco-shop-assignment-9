@@ -9,8 +9,8 @@ const Home = () => {
   const [reviews] = useReviews([]);
   return (
     <div>
-      <div className="  right-div d-flex m-5">
-        <div className="  w-75">
+      <div className="  main-div my-5 d-flex container">
+        <div className="w-75">
           <h1>Digital Costco Shop</h1>
           <h1>
             <span className="color">Make Sure Your Best Laptop </span>
@@ -32,9 +32,9 @@ const Home = () => {
 
         <div className="left-div">
           <img
-            className="left-div rounded "
-            width={"450px"}
-            height={"550px"}
+            className="rounded "
+            width={"400px"}
+            height={"500px"}
             src="https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&w=1000&q=80"
             alt=""
           />

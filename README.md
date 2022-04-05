@@ -1,6 +1,6 @@
 # Digital Costco Shop
 
-This is my First react project [see my project](https://digital-costco-shop.netlify.app/).
+This is my Second React Project [See My Project](https://digital-costco-shop.netlify.app/).
 
 ## `Project Description`
 
